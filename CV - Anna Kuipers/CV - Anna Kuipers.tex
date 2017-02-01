@@ -1,0 +1,81 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% Font sizes: 10, 11, or 12;
+% Paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape
+% Font families: sans or roman
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{banking}
+
+% CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{orange}
+
+% Reduce document margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[top=0.85in,bottom=0.85in,left=0.85in,right=0.85in]{geometry}
+\usepackage{multicol}
+
+\firstname{Anna}
+\familyname{Kuipers Ivern}
+\nationality{Nacionalitat: Espanyola i Holandesa}
+\birthdate{15/09/1989}
+\address{C/ Doctor Junc\`a, 1}{08880 Cubelles}
+\mobile{630 185 411}
+\email{annakuipersivern@gmail.com}
+
+\begin{document}
+	\begin{minipage}[t]{\textwidth}
+	%\begin{minipage}[t]{0.65\textwidth}
+		\makecvtitle
+	\end{minipage}
+	%\hspace{1cm}
+	%\begin{minipage}[c]{0.25\textwidth}
+	%	{\color{color1}\framebox{\includegraphics[width=\textwidth]{slika}}}
+	%\end{minipage}
+	\vspace{-0.5cm}
+
+	\section{Experi\`encia laboral}
+		\cventry{Octubre 2013 -- actualitat}{Administraci\'o}{\textsc{AC Solutions}}{Vilanova i la Geltr\'u}{}{}
+		\cventry{Maig 2013 -- Setembre 2013}{Recepci\'o}{\textsc{Hotel Celimar Centre}}{Sitges}{}{}
+		\cventry{Abril 2011 -- Novembre 2012}{Restaurant i botiga}{\textsc{Centre de jardineria Oosterik}}{Denekamp (Pa\"isos Baixos)}{}{}
+		\cventry{Gener 2010 -- Octubre 2010}{Administraci\'o}{\textsc{Dakdekker S.L.}}{La Bisbal del Pened\`es}{}{}
+		\cventry{Estius 2007, 2008 i 2009}{Supermercat}{\textsc{Carrefour}}{Cubelles}{}{}
+
+	\vspace{0.25cm}
+	\section{Informaci\'o acad\`emica}
+		\cventry{2013 -- actualitat}{Grau Superior d'Administraci\'o i Finances}{IES Joaquim Mir}{Vilanova i la Geltr\'u}{}{}
+		\cventry{2005 -- 2008}{Batxillerat human\'istic}{IES Cubelles}{Cubelles}{}{}
+
+	\vspace{0.25cm}
+	\section{Idiomes}
+		\cvitemwithcomment{Catal\`a}{Idioma matern}{}
+		\cvitemwithcomment{Castell\`a}{Idioma matern}{}
+		\cvitemwithcomment{Holand\`es}{Segon idioma matern}{Curs a l'Acad\`emia Pir\`amide de Cubelles durant l'any 2010}
+		\cvitemwithcomment{Angl\`es}{Nivell alt parlat i escrit}{}
+		\cvitemwithcomment{Alemany}{Nivell mig parlat}{Curs a l'Acad\`emia Pir\`amide de Cubelles durant els anys 2009\\i 2010, curs A.2.1 a la UOC l'any 2013}
+
+	\vspace{0.25cm}
+	\section{Altres}
+		\begin{multicols}{2}
+			\subsection{Interessos}
+				\renewcommand{\listitemsymbol}{--~} % Changes the symbol used for lists
+				\cvlistitem{M\'usica}
+				\cvlistitem{Fam\'ilia i amics}
+				\cvlistitem{Viatjar}
+				\cvlistitem{Idiomes}
+				\vspace{1cm}
+
+			\subsection{Habilitats inform\`atiques}
+				\cvitem{Ofim\`atica}{Word, Excel, Outlook}
+				\cvitem{Comptabilitat}{NominaSOL, ContaSOL}
+				%\cvitem{{\color{blue}{dir}}}{{\color{blue}{altres}}}
+				%\cvitem{{\color{blue}{coses}}}{{\color{blue}{(quantes m\'es millor)}}}
+		\end{multicols}
+
+	\subsection{Informacions d'inter\'es}
+		\cvitem{}{Disposo de perm\'is de conduir B amb vehicle propi}
+		\cvitem{}{Possibilitat d'incorporaci\'o immediata}
+\end{document}
